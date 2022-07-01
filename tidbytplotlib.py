@@ -114,12 +114,17 @@ if __name__ == "__main__":
     dev_name = "DEVICE_ID"
     dev_toke =  "API_TOKEN"
     tb = tidbyt_plot(dev_name,dev_toke)
+    a = linspace(0,1,100)
 
-    for i in range(100):
-        a = linspace(0,1,100)
-        b = sin(i-10*a)
-        tb.plot(a,b,(200-i*2,0,i*2))
-        tb.text("hello\nworld",32,5,color=(i*2,0,200-i*2))
+    mxx = 25
+    mmm = 200
+
+    for i in range(0,100,2):
+        for j in range(1,mxx):
+            b = j*sin(j*.5*a)
+            tb.plot(a,b,(255-i-j*mmm//mxx,10,i+j*mmm//mxx))
+
+        tb.text("hello\nworld",16,5,color='white')
         tb.render_frame()
-
-    tb.make_gif(show=True,duration=100,loop=0,rev=True)
+    gif = tb.make_gif(show=True,rev=True,duration=100)
+    #tb.send_to_tidbyt(gif,"ok")
