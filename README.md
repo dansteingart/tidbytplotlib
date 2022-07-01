@@ -26,6 +26,9 @@ The [tidbyt](https://tidbyt.com/) is a wifi connected led matrix that's way more
     gif = tb.make_gif(show=True,rev=True,duration=100)
     tb.send_to_tidbyt(gif,"ok")
 ```
+which should render
+
+![example](https://user-images.githubusercontent.com/152047/176831799-f224a134-e1e1-4396-830f-af9c093357c2.gif)
 
 ## Requirements
 
