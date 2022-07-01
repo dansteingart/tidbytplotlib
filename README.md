@@ -28,7 +28,8 @@ The [tidbyt](https://tidbyt.com/) is a wifi connected led matrix that's way more
 ```
 which should render
 
-![example](https://user-images.githubusercontent.com/152047/176831799-f224a134-e1e1-4396-830f-af9c093357c2.gif)
+
+<img src="https://user-images.githubusercontent.com/152047/176831799-f224a134-e1e1-4396-830f-af9c093357c2.gif" alt="drawing" width="400"/>
 
 ## Requirements
 
