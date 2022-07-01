@@ -1,2 +1,3 @@
 # tidbiyplotlib
-simple python plotting (+) library for the very cool tidybt
+
+The [tidbyt]() is a wifi connected led matrix that's way more fun than it has any right to be.
